@@ -1,0 +1,22 @@
+.bg-custom-gradient {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    padding: 19px 28px;
+    border-radius: 8px;
+    color: white;
+}
+
+.banner {
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+}
+
+.bg-url {
+
+        background:
+            url('https://i.postimg.cc/Qd3ffVKq/bg1.png') no-repeat left bottom,
+            /* Layer 1 */
+            url('https://i.postimg.cc/j5pHCkzh/bg2.png') no-repeat top right,
+            /* Layer 2 */
+            #f2f2ff;
+        /* Layer 3 */
+
+}
